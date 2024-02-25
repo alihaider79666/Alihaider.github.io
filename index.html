@@ -7,22 +7,17 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- =====BOX ICONS===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+
+    <!-- extra -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <title>Portfolio Ali Haider</title>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-
-
-    <script src="index.js"></script>
-
-
-    <script type="text/javascript">
-        (function () {
-            emailjs.init  ("wO2cVsr6pKhiYf8Ec");
-               
-        })();
-    </script>
-
 </head>
 
 <body>
@@ -40,7 +35,8 @@
                     <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education </a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work </a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
@@ -176,6 +172,27 @@
                             <span class="skills__percentage">85%</span>
                         </div>
                     </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
+                                <path
+                                    d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282s2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57a.784.784 0 1 1 0 1.57z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282s-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57a.784.784 0 1 1 0-1.57z"
+                                    fill="currentColor" />
+                            </svg>
+                            <!-- <i class='bx bxs-Python skills__icon'></i> -->
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
                 </div>
 
                 <div>
@@ -185,6 +202,44 @@
         </section>
 
         <!--===== WORK =====-->
+        <!--===== My Education =====-->
+        <section  class="skills section" section id="education">
+            
+                
+                <h1 class="section-title">My Education</h1>
+                <div class=" bd-grid">
+                    <ul class="timeline">
+                        
+                        <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                            <label class="timeline-event-icon"></label>
+                            <div class="timeline-event-copy">
+                                <p class="timeline-event-thumbnail">Year 2022</p>
+                                <img src="imgs/uni logo.png" alt="" width="100" height="100" id="hp" />
+                                <h3>Bachelor of Science in Computer Secience (BSCS)</h3>
+                                <h4>University of Agriculture Faisalabad, Pakistan</h4>
+                                <!-- <p><strong>Thesis Title</strong>
+                                    <br>READ: Requirements Engineering Analysis and Design
+                                </p> -->
+                            </div>
+                        </li>
+                        <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                            <label class="timeline-event-icon"></label>
+                            <div class="timeline-event-copy">
+                                <p class="timeline-event-thumbnail">INTERMEDIATE</p>
+                                <img src="imgs/cl.png" alt="" width="100" height="100" id="hp" />
+                                <h3>Fsc Pre Eng.</h3>
+                                <h4>Punjab Group Of Colleges</h4>
+                                <!-- <p><strong>Thesis Title</strong>
+                                    <br>READ: Requirements Engineering Analysis and Design
+                                </p> -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--===== My Education end =====-->
         <section class="work section" id="work">
             <h1 class="section-title">Work With</h1>
 
@@ -211,40 +266,69 @@
         </section>
 
         <!--===== CONTACT =====-->
-
         <section class="contact section" id="contact">
             <h1 class="section-title">Contact</h1>
 
             <div class="contact__container bd-grid">
-                <form action="" class="contact__form prams">
-                    <input type="text" placeholder="Name" id="name" class="contact__input">
-                    <input type="email" placeholder="Email" id="email" class="contact__input">
-                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
-                    <button class="contact__button button" onclick="sendMail()">Send</button>
+                <form id="myForm" class="contact__form">
+                    <input type="text" id="name" name="name" placeholder="Name" class="contact__input" autocomplete="off">
+                    <input type="email" id="email" name="email" placeholder="Email" class="contact__input" autocomplete="off">
+                    <textarea id="message" name="message" cols="0" rows="10" class="contact__input" autocomplete="off"></textarea>
+                    <input type="button" value="Send" onclick="sendEmail()" class="contact__button button">
                 </form>
             </div>
         </section>
     </main>
 
+
+
+
+
+
+
+
+    <a href="https://wa.me/+923076409610?text=Hello%20Ali!" class="float" target="_blank">
+        <i class="bx bxl-whatsapp"></i>
+    </a>
+
+
+
+    <!--Start Sticky Icon-->
+    <div class="sticky-icon">
+        <a href="https://www.instagram.com/?hl=en" class="Instagram"><i class="fab fa-instagram"></i> Instagram </a>
+        <a href="https://www.facebook.com/" class="Facebook"><i class="fab fa-facebook-f"> </i> Facebook </a>
+        <a href="https://aboutme.google.com/u/0/?referer=gplus" class="Google"><i class="fab fa-google-plus-g"> </i>
+            Google + </a>
+        <a href="https://www.youtube.com/" class="Youtube"><i class="fab fa-youtube"></i> Youtube </a>
+        <a href="https://wa.me/+923076409610?text=Hello%20Ali!" class="whatsapp"><i class="fab fa-whatsapp"> </i> Whats App </a>
+
+    </div>
+    <!--End Sticky Icon-->
+
+
+
+
     <!--===== FOOTER =====-->
     <footer class="footer">
         <!-- <p class="footer__title">Ali Haider</p> -->
-        <div class="footer__social">
-<!--             <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
-            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a> -->
-            <!-- <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a> -->
-        </div>
+        <!-- <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div> -->
+
         <p class="footer__copy">&#169; Ali Haider, All rights reserved</p>
     </footer>
 
 
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
-
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <!--===== MAIN JS =====-->
     <script src="js/script.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+
 </body>
 
 </html>
