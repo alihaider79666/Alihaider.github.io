@@ -790,3 +790,73 @@ img {
 
 
   
+/* WhatsApp Icon Styling */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 160px; /* Adjusted to place LinkedIn and Gmail icons below */
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.whatsapp-icon img {
+    width: 70%;
+    height: 70%;
+}
+
+/* LinkedIn Icon Styling */
+.linkedin-icon {
+    position: fixed;
+    bottom: 90px; /* Adjusted to place Gmail icon below */
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #0077B5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.linkedin-icon img {
+    width: 70%;
+    height: 70%;
+}
+
+/* Gmail Icon Styling */
+.gmail-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #D44638;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.gmail-icon img {
+    width: 70%;
+    height: 70%;
+}
+
+/* Hover Effects */
+.whatsapp-icon:hover, .linkedin-icon:hover, .gmail-icon:hover {
+    transform: scale(1.1);
+}

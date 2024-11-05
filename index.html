@@ -51,10 +51,10 @@
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Ali Haider</span><br>Web Developer
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Ali Haider</span><br>Web & UI Designer
                 </h1>
-
-                <a href="https://wa.me/+923076409610?text=Hello%20Ali!" class="button" target="_blank">Contact</a>
+                <button class="button" onclick="downloadCV()">Resume</button>
+                <!-- <a href="https://wa.me/+923076409610?text=Hello%20Ali!" class="button" target="_blank">Contact</a> -->
             </div>
 
             <div class="home__social">
@@ -103,105 +103,131 @@
 
             <div class="skills__container bd-grid">
                 <div>
-                    <h2 class="skills__subtitle">Professional Skills</h2>
-                    <!-- <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
-
+                    <!-- <h2 class="skills__subtitle">Professional Skills</h2> -->
+                  
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxl-html5 skills__icon'></i>
-                            <span class="skills__name">HTML5</span>
-                        </div>
-                        <!-- <div class="skills__bar skills__html">
-
-                        </div> -->
-                        <!-- <div>
-                            <span class="skills__percentage">95%</span>
-                        </div> -->
-                    </div>
-
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-css3 skills__icon'></i>
-                            <span class="skills__name">CSS3</span>
-                        </div>
-                        <!-- <div class="skills__bar skills__css">
-
-                        </div> -->
-                        <!-- <div>
-                            <span class="skills__percentage">85%</span>
-                        </div> -->
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-react skills__icon'></i>
+                         
                             <span class="skills__name">React JS</span>
                         </div>
-                        <!-- <div class="skills__bar skills__css">
-
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                           
+                            <span class="skills__name">Git & Github</span>
                         </div>
-                        <div>
-                            <span class="skills__percentage">75%</span>
-                        </div> -->
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                           
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        
                     </div>
 
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon'></i>
+                          
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                      
+                    </div>
+                   
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                         
                             <span class="skills__name">JAVASCRIPT</span>
                         </div>
-                        <!-- <div class="skills__bar skills__js">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">65%</span>
-                        </div> -->
+                     
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
+                          
                             <span class="skills__name">UX/UI</span>
                         </div>
-                        <!-- <div class="skills__bar skills__ux">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div> -->
+                       
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
-                                <path
-                                    d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282s2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57a.784.784 0 1 1 0 1.57z"
-                                    fill="currentColor" />
-                                <path
-                                    d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282s-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57a.784.784 0 1 1 0-1.57z"
-                                    fill="currentColor" />
-                            </svg>
-                            <!-- <i class='bx bxs-Python skills__icon'></i> -->
+                           
                             <span class="skills__name">Python</span>
                         </div>
-                        <!-- <div class="skills__bar skills__ux">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">60%</span>
-                        </div> -->
+                       
                     </div>
                 </div>
 
-                <div>
+                <div >
 
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class="skills__icon">
-                              <svg width="24" height="24" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0ZM11.0867 28.7428L7.0182 19.3211H9.7346L11.8359 24.3924C12.2704 25.4172 12.6716 26.3921 13.0344 27.3211H13.1064C13.4731 26.3789 13.8915 25.3649 14.3595 24.3924L16.4608 19.3211H19.152L15.0567 28.7428H11.0867ZM21.2846 28.7428V19.3211H23.5455V28.7428H21.2846ZM30.1623 28.7428H27.4459L22.4396 19.3211H25.3517L28.5189 25.3061C28.8652 25.9717 29.1942 26.6289 29.5036 27.2885H29.5756C29.9001 26.6289 30.243 25.9717 30.5982 25.3061L33.7597 19.3211H36.6407L30.1623 28.7428Z" fill="currentColor"/>
-                              </svg>
-                            </i>
+                            
                             <span class="skills__name">Next.js</span>
                           </div>
+                        
+                          
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name">
+                                 Tailwind Css</span>
+                          </div>
+                        
+                          
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name">
+                                BoostrapCSS</span>
+                          </div>
+                        
+                          
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name">
+                                Mongodb / Mongoose</span>
+                          </div>
+                        
+                          
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name">
+                                 Figma</span>
+                          </div>
+                        
+                          
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name">
+                                Adobe (Adobe Photoshop, Adobe Illustrator, Adobe)</span>
+                          </div>
+                        
+                          
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            
+                            <span class="skills__name">
+                                Content editing tools (Canva; Adobe Premiere Pro)</span>
+                          </div>
+                        
                           
                         
                     </div>
@@ -308,10 +334,24 @@
     </div> -->
     <!--End Sticky Icon-->
 
+ <!-- WhatsApp Icon -->
+ <a href="https://wa.me/923001234567" target="_blank" class="whatsapp-icon" id="whatsappIcon">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
 
+<!-- LinkedIn Icon -->
+<a href="https://linkedin.com/in/alihaider045" target="_blank" class="linkedin-icon" id="linkedinIcon">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+</a>
+
+<!-- Gmail Icon -->
+<a href="mailto:alihaider96211@gmail.com" target="_blank" class="gmail-icon" id="gmailIcon">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail">
+</a>
 
 
     <!--===== FOOTER =====-->
+   
     <footer class="footer">
         <!-- <p class="footer__title">Ali Haider</p> -->
         <!-- <div class="footer__social">
@@ -331,7 +371,34 @@
     <script src="js/script.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+    <script>
+        function downloadCV() {
+            // Link to your CV file
+            const cvLink = "Ali Haider Europass CV.pdf";  // Replace with the path to your CV PDF file
+            const link = document.createElement("a");
+            link.href = cvLink;
+            link.download = "My_CV.pdf"; // File name for downloaded CV
+            link.click();
+        }
 
+// JavaScript for scroll-based visibility toggle (optional)
+window.addEventListener('scroll', function() {
+    const whatsappIcon = document.getElementById('whatsappIcon');
+    const linkedinIcon = document.getElementById('linkedinIcon');
+    const gmailIcon = document.getElementById('gmailIcon');
+    if (window.scrollY > 100) {
+        whatsappIcon.style.display = 'flex';
+        linkedinIcon.style.display = 'flex';
+        gmailIcon.style.display = 'flex';
+    } else {
+        whatsappIcon.style.display = 'none';
+        linkedinIcon.style.display = 'none';
+        gmailIcon.style.display = 'none';
+    }
+});
+
+
+    </script>
 </body>
 
 </html>
