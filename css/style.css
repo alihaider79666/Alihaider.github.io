@@ -768,7 +768,22 @@ img {
 
 
 
-
+  .sk {
+    font-size: 50px;
+    align-content: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .ski {
+    align-content: center;
+    text-align: center;
+  }
+  .skimg {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
 
 
 
