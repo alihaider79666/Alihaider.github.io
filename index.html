@@ -53,13 +53,16 @@
             <div class="home__data">
                 <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Ali Haider</span><br>Web & UI Designer
                 </h1>
-                <button class="button" onclick="downloadCV()">Resume</button>
+                <button class="button" onclick="downloadCV()">
+                    <i class="fas fa-download"></i> Resume
+                 </button>
+                 
                 <!-- <a href="https://wa.me/+923076409610?text=Hello%20Ali!" class="button" target="_blank">Contact</a> -->
             </div>
 
             <div class="home__social">
                 <a href="https://linkedin.com/in/alihaider045" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a> -->
+              
                 <a href="https://github.com/alihaider79666" class="home__social-icon"><i class='bx bxl-github'></i></a>
             </div>
 
@@ -279,6 +282,9 @@
             <h1 class="section-title">Ptojects With</h1>
         
             <div class="work__container bd-grid">
+                <a href="https://nsai.us/" class="work__img" target="_blank" rel="noopener noreferrer">
+                    <img src="imgs/nsai.png" alt="Project 6">
+                </a>
                 <a href="https://dunyanews.tv/" class="work__img" target="_blank" rel="noopener noreferrer">
                     <img src="imgs/2.png" alt="Project 1">
                 </a>
@@ -296,9 +302,7 @@
                 <a href="https://kslt20.com/" class="work__img" target="_blank" rel="noopener noreferrer">
                     <img src="imgs/ksllogo.jpeg" alt="Project 6">
                 </a>
-                <a href="https://nsai.us/" class="work__img" target="_blank" rel="noopener noreferrer">
-                    <img src="imgs/nsai.png" alt="Project 6">
-                </a>
+                
             </div>
         </section>
         
@@ -374,7 +378,7 @@
     <script>
         function downloadCV() {
             // Link to your CV file
-            const cvLink = "AliResume.pdf";  // Replace with the path to your CV PDF file
+            const cvLink = "AliRsume.pdf";  // Replace with the path to your CV PDF file
             const link = document.createElement("a");
             link.href = cvLink;
             link.download = "Ali Haider Resume.pdf"; // File name for downloaded CV

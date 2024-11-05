@@ -243,7 +243,7 @@ img {
 }
 
 .home__blob {
-    fill: var(--first-color);
+    fill: rgb(159, 154, 154)
 }
 
 .home__blob-img {
@@ -859,4 +859,9 @@ img {
 /* Hover Effects */
 .whatsapp-icon:hover, .linkedin-icon:hover, .gmail-icon:hover {
     transform: scale(1.1);
+}
+@media (max-width: 768px) { /* 768px tak ke screens ke liye */
+    .about__img {
+        display: none;
+    }
 }
