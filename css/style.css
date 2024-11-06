@@ -9,8 +9,8 @@
     /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
     /* HSL color mode */
     --hue-color: 224;
-    --first-color:#d5a01a;
-    --second-color:#a0a0a2;
+    --first-color:#1a9dd5;
+    --second-color:rgb(0, 0, 0);
     /*===== Font typography =====*/
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
@@ -59,7 +59,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
-    background-color: #000000;
+    background-color: rgb(255, 255, 255);
 }
 
 h1, h2, p {
@@ -123,8 +123,9 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #000000;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    /* background-color: #000000; */
+    box-shadow: 0 1px 4px rgba(19, 20, 21, 0.866);
+    background-color: rgba(43, 118, 183, 0.466);
 }
 
 /*===== NAV =====*/
@@ -134,6 +135,7 @@ img {
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
+    /* background-color: rgba(0, 0, 0, 0.764); */
 }
 
 @media screen and (max-width: 767px) {
@@ -144,7 +146,7 @@ img {
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: var(--second-color);
+        background-color: rgba(43, 118, 183, 0.466);
         transition: .5s;
     }
 }
@@ -243,7 +245,8 @@ img {
 }
 
 .home__blob {
-    fill: rgb(159, 154, 154)
+    fill: rgb(135, 177, 215)
+   
 }
 
 .home__blob-img {
@@ -254,7 +257,7 @@ img {
 .button {
     display: inline-block;
     background-color: var(--first-color);
-    color: #fff;
+    color: #ffffff;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
@@ -684,7 +687,7 @@ img {
     position: absolute;
     top: 0;
     left: 2em;
-    width: 2px;
+    width: 2px;button
     height: 100%;
   }
   
@@ -695,11 +698,11 @@ img {
   .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #d5a01a;
+    background-color: #06435d;
   }
   
   .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #d5a01a;
+    box-shadow: inset 40em 0 0 0 #06435d;
   }
   
   .timeline-event-copy {
@@ -734,7 +737,7 @@ img {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #425bb5;
+    background-color: #1a9dd5;
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -795,8 +798,8 @@ img {
     position: fixed;
     bottom: 160px; /* Adjusted to place LinkedIn and Gmail icons below */
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #25D366;
     border-radius: 50%;
     display: flex;
@@ -817,8 +820,8 @@ img {
     position: fixed;
     bottom: 90px; /* Adjusted to place Gmail icon below */
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #0077B5;
     border-radius: 50%;
     display: flex;
@@ -839,8 +842,8 @@ img {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #D44638;
     border-radius: 50%;
     display: flex;
