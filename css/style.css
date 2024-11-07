@@ -869,3 +869,44 @@ img {
         display: none;
     }
 }
+
+
+.work__container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.work__item {
+    position: relative;
+    text-align: center;
+}
+
+.work__img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.work__img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+    .work__container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 15px;
+    }
+
+    .work__img {
+        border-radius: 6px;
+    }
+
+    .work__button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
